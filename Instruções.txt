@@ -1,0 +1,11 @@
+Instalar o Python, caso não esteja instalado, correndo o instalador contido nesta pen:
+- python-2.7.10.msi
+Não alterar o path predefinido para a instalação do Python
+
+Correr o thescript.bat como ADMIN. Vai ser aberta a linha de comandos,onde vai aparecer 
+uma lista das drives no sistema, para que possamos saber
+em qual delas está inserida a pen. Será pedido para inserir a drive correspondente
+à da pen, na linha de comandos (em princípio D,E, F ou G). Insira apenas a letra
+correspondente (por exemplo, inserir apenas F).
+
+
