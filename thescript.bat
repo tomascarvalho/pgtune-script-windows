@@ -8,7 +8,7 @@ set /p postgresqlversion="Enter the PostgreSQL version (ex 9.1): "
 set postgrespath="C:\Program Files\PostgreSQL\%postgresqlversion%\data\postgresql.conf"
 set newpath="C:\Program Files\PostgreSQL\%postgresqlversion%\data\postgresql.conf.pgtune"
 @echo on
-cd C:\Python27
+cd /d C:\Python27
 python %drive%:\PGTUNE\pgtune -i %postgrespath% -o %postgrespath%
 @echo off
 echo All is done...
