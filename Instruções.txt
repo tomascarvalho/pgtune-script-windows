@@ -14,4 +14,10 @@ comandos (em princípio D,E, F ou G). Insira apenas a letra correspondente
 É depois pedido para inserir a versão do PostgreSQL instalada no Computador.
 É possível verificar a mesma em C:\Program Files\PostgreSQL\
 
+Antes de correr o pgtune, vai ser feito um backup da configuração existente em
+C:\Program Files\PostgreSQL\X.X\data\postgresql.conf.backup
+Caso seja a primeira vez que corre o script na máquina e esse ficheiro ainda não
+exista, o programa pergunta se o destino seleccionado é um ficheiro (F) ou
+um directório (D). Escolher a opção ficheiro (F).
+
 
